@@ -37,7 +37,7 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-.btn button{
+.btn a{
     display: block;
     margin: auto;
     padding: 10px;
@@ -49,10 +49,14 @@ body{
     font-weight:600;
     margin-bottom: 20px;
 }
-.btn button:hover{
+.btn a:hover{
     background-color: #b9dc44;
     color: black;
     cursor: pointer;
+}
+a{
+    text-align: center;
+    text-decoration: none;
 }
 /* MEDIA QUERIES */
 /* LAPTOP */
